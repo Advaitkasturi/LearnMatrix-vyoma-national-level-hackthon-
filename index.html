@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+ <!-- public/index.html -->
+<script src="https://cdn.botpress.cloud/webchat/v1/inject.js" defer></script>
+<script defer>
+  window.addEventListener('DOMContentLoaded', function () {
+    window.botpressWebChat && window.botpressWebChat.init({
+      botId: "d52a163b-6dc4-4ef2-a115-4062886b7e50",
+      hostUrl: "https://cdn.botpress.cloud/webchat/v1",
+      messagingUrl: "https://messaging.botpress.cloud",
+      clientId: "d52a163b-6dc4-4ef2-a115-4062886b7e50",
+      stylesheet: "https://webchat-styler-css.botpress.app/prod/default.css",
+      showPoweredBy: false,
+      botName: "ML Chatbot"
+    });
+  });
+</script>
+
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/jpg" href="/IEEE-GNITC.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IEEE GNITC</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
